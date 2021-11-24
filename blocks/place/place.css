@@ -1,0 +1,21 @@
+.place{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.place:last-child {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 660px) {
+.place {
+  max-width: 320px;
+  margin: 0 auto 50px;
+}
+}
+.place:last-child {
+  margin-bottom: 66px;
+}
+
+
