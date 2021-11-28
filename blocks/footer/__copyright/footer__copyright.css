@@ -4,13 +4,15 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  margin: 92px 0 24px ;
+  margin: 92px 0 24px;
   color: #FFFFFF;
   text-decoration: none;
+  align-self: center;
 }
 
-@media screen and (max-width: 631px) {
+@media screen and (max-width: 636px) {
 .footer__copyright {
   margin:48px 0 24px 16px;
+  align-self: auto;
 }
 }
