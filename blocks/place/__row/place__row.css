@@ -1,14 +1,17 @@
 .place__row {
   display: flex;
   margin-bottom: 48px;
-
 }
 
 .place__row:nth-child(2) {
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 660px) {
+.place__row:last-child {
+  margin:0;
+}
+
+@media screen and (max-width: 760px) {
 .place__row {
   margin:0 auto 0;
   display: block;

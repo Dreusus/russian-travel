@@ -10,11 +10,11 @@
   transition: .2s;
 }
 
-  .place__link:hover {
-    opacity: .8;
+.place__link:hover {
+  opacity: .8;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 760px) {
 .place__link {
   margin-bottom: 32px;
 }
