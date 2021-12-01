@@ -19,8 +19,5 @@
 .place__row:nth-child(2) {
   margin-bottom: 50px;
 }
-.place__row:last-child {
-  margin:0;
-}
 }
 
